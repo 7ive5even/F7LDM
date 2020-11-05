@@ -1,0 +1,247 @@
+* {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: medium;
+}
+
+
+#grad1 {
+    position: relative;
+    min-height: 100%;
+    background-image: linear-gradient(to right, black, rgb(22, 22, 22));
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    clear: both;
+    width: 100%;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 100px;
+  }
+
+footer a {
+    margin-top: 100px;
+    text-decoration: none;
+  }
+
+/* Encabezado */
+
+.header {
+    color: white;
+}
+
+.header img {
+    float: center;
+    width: 25%;
+    height: 100%;
+    padding: 1px;
+    margin-top: 10px;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+}
+
+.header h1 {
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.header hr {
+    margin-bottom: 20px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header ul {
+    color: white;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(167, 167, 167);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+.header ol {
+    color: white;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border: 3px solid rgb(167, 167, 167);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+/* Fin Encabezados */
+
+/* Parrafo */
+
+.parrafo {
+    color: black;
+    /*border: 3px solid white;*/
+    border-radius: 25px;
+    padding: 10px;
+    background-image: linear-gradient(to right, white, rgb(99, 99, 99));
+    width: 50%;
+    text-decoration: none;
+}
+
+.parrafo a {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+/* Fin Parrafo */
+
+/* Menu Nav */
+
+.menunav ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.356));
+    background-position: center;
+    border-bottom: 1px solid white;
+}
+
+.menunav  {
+    object-fit: cover;
+}
+
+.menunav li {
+    /*border: 1px solid white;*/
+    float: left;
+    text-decoration: none;
+    width: 150px;
+}
+
+.menunav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 0px solid rgb(0, 0, 0);
+}
+
+.menunav > ul > li:not(:nth-child(1)) a {
+    background-image: linear-gradient(to bottom right, rgb(32, 32, 32), rgb(0, 0, 0));
+    border-bottom: 0px solid white;
+    border: 0px solid white;
+    
+}
+
+.menunav li a:hover {
+    background-image: url("./imagenes/cabeza.gif");
+    color:white;
+  }
+
+/* Fin Menunav */
+
+.tablaestilo table, th, td {
+    color: white;
+    border: 1px solid white;
+    margin: 30px;
+    background-image: url(../fiveseven-main/imagenes/cabeza.gif);
+}
+
+.solid {
+    border-top: 3px solid #bbb;
+    border-color: white;
+  }
+
+.border {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 20%;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+}
+
+/* Botones */
+
+.botones {
+    font-size: large; 
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-top-width: 20px;
+}
+
+.botones:hover {
+    font-size: large; 
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 7px;
+    background-color: white;
+    color: black;
+    border-top-width: 20px;
+}
+
+/* Fin Botones */
+
+/* Contenido Mitología */
+
+.contenido h1 {
+    color: white;
+}
+
+.contenido img {
+    width: 20%;
+    float: left;
+    margin-right: 15px;
+}
+
+.contenido p {
+    color: white;
+}
+
+
+.module-border-wrap {
+    max-width: 1500px;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, rgb(197, 0, 0), rgba(95, 69, 69, 0));
+    padding: 3px;
+  }
+  
+  .module {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(150, 150, 150, 0.781));
+    color: rgb(0, 0, 0);
+    padding: 20px;
+  }
+
+  /* Fin Contenido Mitología */
