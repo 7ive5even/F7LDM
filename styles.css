@@ -94,10 +94,9 @@ footer a {
 .parrafo {
     color: black;
     /*border: 3px solid white;*/
-    border-radius: 25px;
     padding: 10px;
-    background-image: linear-gradient(to right, white, rgb(99, 99, 99));
-    width: 50%;
+    background-image: linear-gradient(to right, white, rgb(185, 185, 185));
+    width: 98%;
     text-decoration: none;
 }
 
